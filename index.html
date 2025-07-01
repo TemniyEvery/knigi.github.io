@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="yandex-verification" content="8cca2f3bac23ba17" />
+  <title>Упс! Кто тут нажал кнопку?</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background: #fffcf0;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      color: #ff4081;
+      margin-bottom: 0.3em;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 0.2em;
+    }
+    img {
+      max-width: 300px;
+      margin-top: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .btn {
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 1em;
+      background: #673ab7;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    .btn:hover {
+      background: #512da8;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>А ты точно туда нажал?</h1>
+  <p>Мы и сами не знаем, зачем эта страница.</p>
+  <p>Но теперь ты здесь. Добро пожаловать!</p>
+  <img src="https://i.imgur.com/2v3Z5Qf.gif" alt="Забавный кот">
+  <button class="btn" onclick="alert('Теперь ты — официальный кнопконатискатель!')">
+    Нажми, если не боишься
+  </button>
+</body>
+</html>
